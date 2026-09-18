@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(223, 190, 190);
+    margin: 40px;
+    color: #000000;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(161, 88, 134);
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    color: rgb(54, 117, 162);
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    color: rgb(60, 130, 35);
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+    color: rgb(60, 130, 35);
+}
+
+input[type="submit"] {
+    padding: 9px 25px;
+    background-color: #444;
+    color: rgb(138, 115, 115);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #a87f7f;
+}
